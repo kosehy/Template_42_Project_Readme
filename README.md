@@ -33,36 +33,16 @@ Make sure you have the needed [dependencies](#dependencies) before proceeding.
 For instructions and/or greater detail refer to the project [pdf][pdf]
 
 ## Dependencies  
-* numpy
-* matplotlib
-* jupyter
+
 
 ## Installation
-brew install docker-machine docker
 
-brew services start docker-machine
-
-docker-machine create --driver virtualbox default
-
-eval "$(docker-machine env default)"
 
 ## Usage  
-download Dockerfile
 
-docker build -t numpy_rush .
-
-mkdir notebooks
-
-docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush
-
-- To get docker-host-ip
-
-docker-machine ls
-
-<docker-host-ip>:8800/?token=...
 
 ## Testing  
-Most testing was done under a google colab environment.
+
 
 ## Future
 
