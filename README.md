@@ -17,35 +17,59 @@
 ## Introduction  
 
 #### About This Project
+fractal is a 42 Project that aims to draw the fractal
 
 #### About Me
+Developer, Designer Be creative!! Currently Studying [@42SiliconValley][42]
 
 #### About 42  
 [42][42] is a free, non profit, project-based, peer-to-peer learning coding school. It originated in France and now has over 20 campuses all over the world. More information can be found [here][42] 
 
 ## Objective  
+The assignment is broken up into a part 1 and part 2. Part 1 is to discover /use the mathematical notion of complex numbers. Part 2 is to take a peek at the concept of optimization in computer graphics.
 
 ## Instructions
 Make sure you have the needed [dependencies](#dependencies) before proceeding.
-For instructions and/or greater detail refer to the project [pdf][pdf]  
+For instructions and/or greater detail refer to the project [pdf][pdf]
 
 ## Dependencies  
-* A C language compiler most common would be GCC or Clang.
-* These were written to run on Unix based systems, it would likely work on a windows machine too but is currently untested. 
+* numpy
+* matplotlib
+* jupyter
 
-## Installation 
+## Installation
+brew install docker-machine docker
+
+brew services start docker-machine
+
+docker-machine create --driver virtualbox default
+
+eval "$(docker-machine env default)"
 
 ## Usage  
+download Dockerfile
+
+docker build -t numpy_rush .
+
+mkdir notebooks
+
+docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush
+
+- To get docker-host-ip
+
+docker-machine ls
+
+<docker-host-ip>:8800/?token=...
 
 ## Testing  
+Most testing was done under a google colab environment.
 
-## Future 
+## Future
 
 ## Mechanics  
 
 ## Credits  
-
-Some frameworks and libraries that were helpful with testing.   
+[https://github.com/akiomik/pilgram][pilgram]
 
 ## Disclaimer
 
@@ -58,8 +82,10 @@ This is not kept up to date and I cannot guarantee that it will work on your fut
 ## Keep in Touch
 
 You can find me on:
-
+[Github][kosehy]
 Enjoy!
 
 [42]: http://42.us.org "42 USA"
-[pdf]:  "Pdf"
+[pdf]: https://github.com/kosehy/numpy_rush/blob/master/numpy.en.pdf
+[pilgram]: https://github.com/akiomik/pilgram
+[kosehy]: https://github.com/kosehy
