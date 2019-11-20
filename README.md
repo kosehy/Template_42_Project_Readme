@@ -31,9 +31,22 @@ Developer, Designer Be creative!! Currently Studying [@42SiliconValley][42]
 The assignment is broken up into a part 1 and part 2. Part 1 is to discover /use the mathematical notion of complex numbers. Part 2 is to take a peek at the concept of optimization in computer graphics.
 
 ## Mandatory
-
+1. Implement at least 3 different types of fractals, including Julia st and the Mandelbrot set. The third fractal can be free to choose.
+2. To make the parameter of the Julia set vary only with the mouse (without clicking). For other types of fractal, you can do what you want.
+3. The mouse wheel zooms in and out, almost infinitely (within the limits of the computer). This is the very principle of fractals.
+4. Use at least a few colors to show the depth of each fractal. It's even better if you hack away on psychedelic effects.
+5. A parameter is passed on the command line to define what type of fractal will be viewed. If no parameter is provided, or if the parameter is invalid, the program displays a list of available parameters and exits properly.
+6. ESC will exit the program.
+7. The use of images of the minilibX is strongly recommended.
 ## Bonus
-
+1. The zoom follow the actual mouse position.
+2. In addition to the zoom: moving with the arrows.
+3. Make the color range shift.
+4. Multi-threading implementation.
+5. Plenty of fun fractals.
+6. 3D representation.
+7. Two valid parameters in the command line, resulting in two fractals in two windows.
+8. You can add bonuses of your own invention, which will be assessed by your evaluators.
 ## Instructions
 Make sure you have the needed [dependencies](#dependencies) before proceeding.
 For instructions and/or greater detail refer to the project [pdf][pdf]
