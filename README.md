@@ -3,6 +3,8 @@
 ### Table Of Contents
 * [Introduction](#introduction)
 * [Objective](#objective)
+* [Mandatory part](#mandatory)
+* [Bonus part](#bonus)
 * [Instructions](#instructions)
 * [Dependencies](#dependencies)
 * [Installation](#installation)
@@ -27,6 +29,10 @@ Developer, Designer Be creative!! Currently Studying [@42SiliconValley][42]
 
 ## Objective  
 The assignment is broken up into a part 1 and part 2. Part 1 is to discover /use the mathematical notion of complex numbers. Part 2 is to take a peek at the concept of optimization in computer graphics.
+
+## Mandatory
+
+## Bonus
 
 ## Instructions
 Make sure you have the needed [dependencies](#dependencies) before proceeding.
