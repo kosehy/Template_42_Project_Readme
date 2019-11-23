@@ -28,7 +28,10 @@ Developer, Designer Be creative!! Currently Studying [@42SiliconValley][42]
 
 ## Instructions
 Make sure you have the needed [dependencies](#dependencies) before proceeding.
-For instructions and/or greater detail refer to the project [pdf][pdf]  
+For instructions and/or greater detail refer to the project [pdf][pdf]
+## Mandatory part
+
+## Bonus part
 
 ## Dependencies  
 * A C language compiler most common would be GCC or Clang.
